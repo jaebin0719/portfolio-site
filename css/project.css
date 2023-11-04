@@ -1,0 +1,66 @@
+@charset "utf-8";
+.project{
+    background-color: #dbccff;
+}
+.project .inner{
+    padding: 50px 0;
+}
+.project-title{
+    font-family: 'Black Han Sans';
+    font-size: 48px;
+    text-align: center;
+    padding: 50px;
+}
+.project-info{
+    background-color: #fff;
+    padding: 30px;
+    margin-bottom: 50px;
+    border-radius: 30px;
+}
+.projectinfo-title{
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    color: #222;
+    padding: 50px 0;
+    line-height: 40px;
+}
+.project-text{
+    display: flex;
+    justify-content: space-evenly;
+}
+.projectinfo-title span{
+    font-size: 20px;
+    font-weight: 500;
+    color: #797979;
+}
+.project-text .swiper-slide{
+    width: 100%;
+}
+.project-info .swiper{
+    width: 40%;
+    margin: 0;
+}
+.info-right{
+    width: 40%;
+}
+.info-right p{
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.info-right p strong{
+    font-weight: 900;
+}
+.info-link{
+    display: flex;
+    line-height: 30px;
+}
+.link-title{
+    display: flex;
+    flex-direction: column;
+    font-weight: 900;
+    padding-right: 70px;
+}
+.link-text{
+    color: #4272cc;
+}

@@ -1,0 +1,38 @@
+@charset "utf-8";
+.git{
+    background-color: #333;
+    padding: 100px 0;
+}
+.git-title{
+    color: #fff;
+    font-family: 'Black Han Sans';
+    font-size: 48px;
+    text-align: center;
+    padding: 50px;
+}
+.git-container{
+    width: 30%;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 30px;
+    transition: all 0.2s;
+    line-height: 50px;
+    text-align: left;
+}
+.git-container:hover{
+    transform: translateY(10px);
+}
+.git-container a{
+    color: #4272cc;
+}
+.git-container ul h3{
+    font-weight: 900;
+    font-size: 18px;
+}
+.git-container ul li{
+    list-style: initial;
+    list-style-position: inside;
+    font-weight: 600;
+    color: #444444;
+}

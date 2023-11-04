@@ -1,0 +1,68 @@
+@charset "utf-8";
+.aboutme{
+    padding: 100px 0;
+}
+.about-title{
+    font-family: 'Black Han Sans';
+    font-size: 48px;
+    text-align: center;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-title i{
+    font-size: 30px;
+    color: #858484;
+    position: relative;
+    right: 20px;
+}
+/* .about-title::after{
+    position: absolute;
+    top: 110px;
+    left: 447px;
+    content: "";
+    width: 248px;
+    height: 2px;
+    background-color: rgba(0,0,0,0.5);
+} */
+.about-content{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.about-info{
+    color: #3a3a3a;
+    display: flex;
+    flex-direction: row;
+    width: calc( 90% / 3);
+}
+.about-info i{
+    font-size: 30px;
+    margin: 40px;
+    display: flex;
+    align-items: center;
+}
+.info-text{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px 0;
+}
+.info-title{
+    font-size: 22px;
+    font-weight: 800;
+}
+.info-name{
+    font-size: 16px;
+}
+.about-sub{
+    width: 80%;
+    padding: 20px;
+    background-color: #f5d6d6;
+    margin: 50px auto;
+    text-align: center;
+    font-weight: 900;
+}
