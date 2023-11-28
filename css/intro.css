@@ -1,0 +1,49 @@
+@charset "utf-8";
+.intro{
+    padding: 164px 0 100px 0;
+    border-bottom: 2px dashed #666565;
+}
+.intro .inner{
+    background-color: #eee;
+    padding: 50px;
+    border-radius: 30px;
+}
+.intro-title{
+    font-family: 'Black Han Sans';
+    font-size: 48px;
+    text-align: center;
+    padding: 0  0 50px 0;
+    color: #393e46;
+}
+.intro-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.intro .inner img{
+    width: 20%;
+    height: 20%;
+    border-radius: 50px;
+}
+.intro .inner ul li{
+    font-family: 'Black Han Sans';
+    background-color: #393e46;
+    cursor: pointer;
+    line-height: 20px;
+    margin: 15px 0;
+    padding: 15px 100px 15px 20px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.intro .inner ul li:hover{
+    background-color: rgb(39, 143, 143);
+}
+.intro .inner p{
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #5e5e5e;
+    text-align: center;
+    line-height: 23px;
+}
